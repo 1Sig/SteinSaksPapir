@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #082c6c;
+    color: #fff;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.title{
+    text-align: center;
+    top: 0px;
+    font-size: 50px;
+    z-index: 2;
+}
+  
+.score{
+    display: flex;
+    width: 30px;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 70px;
+    z-index: 3;
+}
+  
+
+.p-count,.c-count{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+  
+.options{
+    display: inline-flex;;
+    width: 100px;
+    justify-content: center;
+    margin-top: 20px;   
+}
+  
+
+.rock, .paper, .scissor, .IMGbutton {
+    padding: 10px;
+    width: 100px;
+    border-radius: 25px;
+    background: green;
+    outline: none;
+    border-color: green;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.IMGbutton, .img{
+max-width: 90px;
+height: auto;
+}
+
+.move{
+    font-size: 50px;
+    font-weight: bold;
+}
+  
+.start{
+    padding: 10px;
+    width: 100px;
+    border-radius: 25px;
+    background: green;
+    outline: none;
+    border-color: green;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+.restart{
+    padding: 10px;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.result{
+    margin-top: 20px;
+    font-size: 15px;
+}
+  
+.title{
+    text-align: center;
+}
+
+.score{
+    position: absolute;
+    top: 200px;
+    width: 800px;
+}
+
+.options{
+    width:800px ;
+} 
+
+.VS{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
